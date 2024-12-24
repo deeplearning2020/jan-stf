@@ -33,7 +33,7 @@ parser.add_argument('--log_path', type=str, default='./logs',
 parser.add_argument('--output_path', type=str, default='./exp',
                     help='the path to save this exp data.')
 
-parser.add_argument('--source_name', type=str, default='Dioni',
+parser.add_argument('--source_name', type=str, default='Houston2013',
                     help='the name of the source dir, can automaticly change by programe')
 parser.add_argument('--target_name', type=str, default='Loukia',
                     help='the name of the test dir, can automaticly change by programe')
@@ -64,7 +64,7 @@ parser.add_argument('--l2_decay', type=float, default=1e-4,
 parser.add_argument('--num_epoch', type=int, default=300,
                     help='the number of epoch')
 parser.add_argument('--num_trials', type=int, default=10, help='the number of epoch')
-parser.add_argument('--training_sample_ratio', type=float, default=0.05, help='training sample ratio')
+parser.add_argument('--training_sample_ratio', type=float, default=0.10, help='training sample ratio')
 parser.add_argument('--re_ratio', type=int, default=10,
                     help='multiple of data augmentation. It can be calculated automatically during the training process, and is not predetermined!')
 # parser.add_argument('--checkpoint', type=str, default='/media/sx636/WD/YAO/HSICC/TGRS_23/SEJGA/exp/2023-06-26-16:55:12/params_Houston13_Acc7775_Kappa6459.pkl', help='checkpoint path')
